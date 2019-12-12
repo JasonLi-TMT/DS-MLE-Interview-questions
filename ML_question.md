@@ -33,7 +33,7 @@ ______________
 - Assumption:
   - What is the assumption behind linear regression.
   - How to detect/process multi-colinearity
-   - What is / how to use VIF
+  - What is / how to use VIF
 
 - Formula:
   - what is the formula to calculate Y
