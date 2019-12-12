@@ -25,7 +25,7 @@ ______________
 class ML_Model:
     def __init__(self):
         self.params = ?                                      # what params is included, how to initialize it
-        self.learning_rate                                   # where this params is used?
+        self.learning_rate = ?                               # where this params is used?
         
     def predict(self, X):
         Y_pred = func(X, self.params)                        # what is func
@@ -35,20 +35,39 @@ class ML_Model:
         loss = func(Y_pred, Y_true)                          # what is func
         return loss
 
-    def update_params(self, loss, learning_rate):
-        params_new = func(loss, self.params)                 # what is func
+    def update_params(self, loss):
+        params_new = func(loss, self.params, self.learning_rate)                 # what is func
         return params_new
         
     def train(self, X, Y_true, epochs):
         for i in range(epochs):
             Y_pred = self.predict(X)
             loss = self.loss(Y_pred, Y_true)
-            self.params = self.update_params(loss, self.params)
+            self.params = self.update_params(loss, self.learning_rate)
         return self.params
 
 class Linear_regression(ML_Model):
     # please check ML_Model class on line 25 and answer all questions in ML_model class
-    
+    def check_assumption(self, X, Y):
+        # what assumption of data you need to check and how to deal with it.
+        # How to detect/process multi-colinearity
+
+    def calculate_Likelihood(self, X, Y_true):
+        # calculate likelihood of X, Y_true
+        Y_pred = self.predict(X)
+        likelihood = 1
+        for i in range(len(X)):
+            X_i = X[i]
+            Y_pred_i = self.predict(X_i)
+            Y_true_i = Y_true[i]
+            likelihood *= func(Y_true_i, Y_pred_i)
+        return likelihood
+     
+    def MaxmimumLikelihoodEstimation(self, X, Y_true):
+        likelihood = self.calculate_lieklihood(X, Y_true)
+        # to optimize likelihood
+        params = OrdinaryLeastSquare(X, Y_true)
+        return params
 
 ```
 
@@ -61,7 +80,7 @@ class Linear_regression(ML_Model):
 
 - Optimization & evaluation:
   - Explain variance and bias
-  - How to control fitting for all models    
+  - How to control fitting for all models
 
 #### Linear regression:
 - Assumption:
