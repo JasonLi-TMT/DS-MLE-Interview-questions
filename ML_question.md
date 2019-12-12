@@ -20,6 +20,7 @@ ______________
 
 ### Modeling
 ______________
+#### Learning based ML model:
 ```
 class ML_Model:
     def __init__(self):
@@ -44,9 +45,16 @@ class ML_Model:
             loss = self.loss(Y_pred, Y_true)
             self.params = self.update_params(loss, self.params)
         return self.params
-            
+
+class Linear_regression(ML_Model):
+    # please check ML_Model class on line 25 and answer all questions in ML_model class
+    
+
 ```
-#### General:
+
+
+
+
 - Theory
   - Explain term: parametric model & non-parametric model, what is the difference
   - Explain model(any) to a kid
