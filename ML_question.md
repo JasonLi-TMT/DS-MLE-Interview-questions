@@ -20,6 +20,32 @@ ______________
 
 ### Modeling
 ______________
+```
+class ML_Model:
+    def __init__(self):
+        self.params = ? # what params is included, how to initialize it
+        self.learning_rate # where this params is used?
+        
+    def predict(self, X):
+        Y_pred = func(X, self.params)
+        return Y_pred
+  
+    def loss(self, Y_pred, Y_true):
+        loss = func(Y_pred, Y_true) # what is func
+        return loss
+
+    def update_params(self, loss, learning_rate):
+        params_new = func(loss, self.params) # what is func
+        return params_new
+        
+    def train(self, X, Y_true, epochs):
+        for i in range(epochs):
+            Y_pred = self.predict(X)
+            loss = self.loss(Y_pred, Y_true)
+            self.params = self.update_params(loss, self.params)
+        return self.params
+            
+```
 #### General:
 - Theory
   - Explain term: parametric model & non-parametric model, what is the difference
