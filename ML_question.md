@@ -17,7 +17,7 @@
 - How/why we scale/normalize features
 
 ### Modeling
-- General:
+> - General:
   + Theory
     - Explain term: parametric model & non-parametric model, what is the difference
     - Explain model(any) to a kid
