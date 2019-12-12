@@ -1,7 +1,7 @@
 # Part one:
 
 ### Data Engineering:
-______________
+=====================
 - General questions:
   + How to deal with missing data
   + How to detect & deal with outliers
@@ -26,7 +26,7 @@ ______________
     - Explain model(any) to a kid
   + Optimization & evaluation:
     - Explain variance and bias
-    - How to control
+    - How to control fitting for all models    
 
 - Linear regression:
   + Assumption:
