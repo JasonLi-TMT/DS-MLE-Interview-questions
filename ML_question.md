@@ -1,6 +1,7 @@
 # Part one:
 
 ### Data Engineering:
+______________
 - General questions:
   + How to deal with missing data
   + How to detect & deal with outliers
@@ -10,6 +11,7 @@
 
 
 ### Feature Engineering:
+______________
 - How/why to deal with thousands of features
   + Ways to perform dimension reduction
     - Explain PCA
@@ -17,7 +19,8 @@
 - How/why we scale/normalize features
 
 ### Modeling
-> - General:
+______________
+- General:
   + Theory
     - Explain term: parametric model & non-parametric model, what is the difference
     - Explain model(any) to a kid
