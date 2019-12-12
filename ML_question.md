@@ -14,7 +14,7 @@
 ______________
 - How/why to deal with thousands of features
   + Ways to perform dimension reduction
-    - Explain PCA
+   - Explain PCA
 - How to deal with categorical variables.
 - How/why we scale/normalize features
 
@@ -24,6 +24,7 @@ ______________
 + Theory
   - Explain term: parametric model & non-parametric model, what is the difference
   - Explain model(any) to a kid
+
 + Optimization & evaluation:
   - Explain variance and bias
   - How to control fitting for all models    
@@ -32,7 +33,7 @@ ______________
 + Assumption:
   - What is the assumption behind linear regression.
   + How to detect/process multi-colinearity
-    - What is / how to use VIF
+   - What is / how to use VIF
 
 - Formula:
   + what is the formula to calculate Y
