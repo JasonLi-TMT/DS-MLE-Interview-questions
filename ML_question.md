@@ -35,15 +35,15 @@ ______________
   + How to detect/process multi-colinearity
    - What is / how to use VIF
 
-- Formula:
++ Formula:
   + what is the formula to calculate Y
   + Explain activation function, why it works
 
-- Evaluation & optimization:
++ Evaluation & optimization:
   - Loss function: What is the loss function
   - Over fitting: how to detect, control
 
-- Feature selection:
++ Feature selection:
   + Methods to perform feature selection and theory behind it.
     
   
