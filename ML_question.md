@@ -20,7 +20,7 @@ ______________
 
 ### Modeling
 ______________
-- General:
+#### General:
   + Theory
     - Explain term: parametric model & non-parametric model, what is the difference
     - Explain model(any) to a kid
@@ -28,7 +28,7 @@ ______________
     - Explain variance and bias
     - How to control fitting for all models    
 
-- Linear regression:
+#### Linear regression:
   + Assumption:
     - What is the assumption behind linear regression.
     + How to detect/process multi-colinearity
