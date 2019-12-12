@@ -21,16 +21,16 @@ ______________
 ### Modeling
 ______________
 #### General:
-+ Theory
+- Theory
   - Explain term: parametric model & non-parametric model, what is the difference
   - Explain model(any) to a kid
 
-+ Optimization & evaluation:
+- Optimization & evaluation:
   - Explain variance and bias
   - How to control fitting for all models    
 
 #### Linear regression:
-+ Assumption:
+- Assumption:
   - What is the assumption behind linear regression.
   + How to detect/process multi-colinearity
    - What is / how to use VIF
