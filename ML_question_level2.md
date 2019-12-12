@@ -19,6 +19,14 @@ ______________
 - How/why we scale/normalize features
 
 ### Modeling
+
+- Theory
+  - Explain term: parametric model & non-parametric model, what is the difference
+  - Explain model(any) to a kid
+
+- Optimization & evaluation:
+  - Explain variance and bias
+  - How to control fitting for all models
 ______________
 #### Learning based ML model:
 ```
@@ -68,19 +76,17 @@ class Linear_regression(ML_Model):
         # to optimize likelihood
         params = OrdinaryLeastSquare(X, Y_true)
         return params
+    
+    def overfitting_control:
+        L1_loss = func?(Y_true, Y_pred, self.params)
+        L2_loss = func?(Y_true, Y_pred, self.params)        
+        
+
+class Logistic_regression(ML_model):
+    
+
 
 ```
-
-
-
-
-- Theory
-  - Explain term: parametric model & non-parametric model, what is the difference
-  - Explain model(any) to a kid
-
-- Optimization & evaluation:
-  - Explain variance and bias
-  - How to control fitting for all models
 
 #### Linear regression:
 - Assumption:
