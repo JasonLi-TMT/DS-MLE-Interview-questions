@@ -11,7 +11,8 @@
 
 ### Feature Engineering:
 - How/why to deal with thousands of features
-  + Explain PCA
+  + Ways to perform dimension reduction
+    - Explain PCA
 - How to deal with categorical variables.
 - How/why we scale/normalize features
 
