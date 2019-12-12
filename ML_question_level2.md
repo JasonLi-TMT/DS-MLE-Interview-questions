@@ -60,7 +60,7 @@ class Linear_regression(ML_Model):
         # what assumption of data you need to check and how to deal with it.
         # How to detect/process multi-colinearity
 
-    def calculate_Likelihood(self, X, Y_true):
+    def calculate_likelihood(self, X, Y_true):
         # calculate likelihood of X, Y_true
         Y_pred = self.predict(X)
         likelihood = 1
@@ -72,7 +72,7 @@ class Linear_regression(ML_Model):
         return likelihood
      
     def MaxmimumLikelihoodEstimation(self, X, Y_true):
-        likelihood = self.calculate_lieklihood(X, Y_true)
+        likelihood = self.calculate_likelihood(X, Y_true)
         # to optimize likelihood
         params = OrdinaryLeastSquare(X, Y_true)
         return params
