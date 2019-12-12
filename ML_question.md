@@ -32,12 +32,12 @@ ______________
 #### Linear regression:
 - Assumption:
   - What is the assumption behind linear regression.
-  + How to detect/process multi-colinearity
+  - How to detect/process multi-colinearity
    - What is / how to use VIF
 
-+ Formula:
-  + what is the formula to calculate Y
-  + Explain activation function, why it works
+- Formula:
+  - what is the formula to calculate Y
+  - Explain activation function, why it works
 
 + Evaluation & optimization:
   - Loss function: What is the loss function
