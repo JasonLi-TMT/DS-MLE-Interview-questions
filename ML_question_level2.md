@@ -1,5 +1,12 @@
-# Part one:
+# ML
 
+ML has three types of questions:
+- Memory question: must remember.
+- Theory question: understand math
+- Experience question: real-life exprience.
+
+
+# Part one:
 ### Data Engineering:
 =====================
 
